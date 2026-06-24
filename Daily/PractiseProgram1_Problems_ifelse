@@ -1,0 +1,102 @@
+# # Write a Python program to find maximum among three numbers.
+
+# num1 = eval(input('Enter the 1st number: '))
+# num2 = eval(input('Enyet the 2nd number: '))
+# num3 = eval(input('Enter the 3rd number: '))
+
+# print(type(num1),type(num3))
+# if(num1>num2 and num1>num3):
+#   print('1st number is greater in given numbers: ',num1)
+# elif(num2>num1 and num2>num3):
+#   print('2nd number is greater than 1st number: ',num2)
+# else:
+#   print('3rd number is greater number: ',num3)
+
+
+  ###############################################################################
+
+# 3. Write a Python program to check whether a number is negative, positive or zero
+
+# num = eval(input('Enter the number: '))
+# if(num<0):
+#   print('Number is Negative: ',num)
+# elif(num>0):
+#   print('Number is Positive',num)
+# else:
+#   print('Number is zero: ',num)
+
+  ################################################################################
+
+# 4. Write a Python program to check whether a number is divisible by 5 and 11 or not.
+
+# num = eval(input('enter the number: '))
+# if(num%5==0 and num%11==0):
+#   print("Entered numbers is divisible by 5 and 11: ", num)
+# elif(num%5==0 and num%11!=0):
+#   print("Number is divisible by 5 only")
+# elif(num%5!=0 and num%11==0):
+#   print("Number is divisible by 11 only")
+# else:
+#   print('Number is not divisible by 5 and 11')
+
+#################################################################################
+
+# # 5. Write a Python program to check whether a number is even or odd.
+# num =eval(input('Enter the number: '))
+# if(num>=0):
+   
+#     if(num%2==0):
+#          print('Enetred number is even ')
+#     else:
+#      print('Entred number is odd ')
+# else:
+#    print('Entre number is icorrect, entre postive number ')
+
+
+################################################################################
+
+#6. Write a Python program to check whether a year is leap year or not.
+
+# year = eval(input('Enter the year: '))
+# if( (year%4==0 or year% 400==0) and year%100!=0):
+#     print('This is leap year: ',year)
+# else:
+#    print('This is not leap year')
+
+###########################################################################
+
+# # 7. Write a Python program to check whether a character is alphabet or not.
+# char = input('Enter the char: ')
+# if(char.isalpha()):
+#     print('Entred character is alphabet: ',char)
+# else:
+#     print('Entred character is not alphabet:  ',char)
+
+#########################################################################
+
+# # 8. Write a Python program to input any alphabet and check whether it is vowel or consonant
+
+# vowels = {'A','E','I','O','U','a','o','i','u','e'}
+# char = input("Enter the character: ")
+# if(len(char)==1 and char.isalpha()):
+#     if char in vowels:
+#         print('Entred chracter is vowels: ',char)
+#     else:
+#         print('Entred character is consonant')
+# else:
+#     print('Entred wrong chracter')
+
+#################################################################################
+
+# 9. Write a Python program to check whether a character is uppercase or lowercase alphabet.
+
+a = input('Enter the character: ')
+if(len(a)==1 and a.isalpha()):
+    if(a.isupper()):
+      print('Entred character is upper case')
+    else:
+      print('Entred Character is lower case')
+else:
+    print('Entred wrong chracter')
+
+################################################################################

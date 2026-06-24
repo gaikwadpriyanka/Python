@@ -1,0 +1,13 @@
+p = 'I love my India'
+print(p[7:10])
+print(p[-5:])
+print(p[10:])
+print(p[0:-9])
+s = p.find('love')
+print(type(s))
+s1 =p.find('my')
+print(p[s+1:s1-1])
+print(p[s:s1+2])
+s2=p.find('India')
+print(p[s:s2])
+print(p[s1:])

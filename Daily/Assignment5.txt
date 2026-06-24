@@ -1,0 +1,20 @@
+# Explain features of a list????
+
+1.List is mutable in nature which supports differnet operations on it like add, remove, update
+2.It support indexing and slicing
+3.List acn be Homogenous and Hetrogenous
+4.It accept all data types
+5.List allow duplicate elements
+6.List prserve sequence or order
+7.Background data structure is array
+
+
+## Creating a List:
+
+1 Using squar bracket: []
+2. Using List constructor:list("aaa")
+3. Creating List with repeated element
+  a = [2]*5
+  a=[2,2,2,2,2]
+
+## List Operations
